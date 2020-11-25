@@ -2,7 +2,12 @@
 
 This project was performed with human face data provided by Nota(https://nota.ai/)
 
-## Model
+## Architecture
+Facial emotion classification algorithm consists of 2 stages. First, when an image is input, the face detector finds the area of the human face. Then, the found human face area is resized to the desired size and input to the emotion classifier. Finally, the emotion classifier predicts emotion.
+![architecture](https://user-images.githubusercontent.com/45653968/100177618-c2907d80-2f15-11eb-8bf6-3b5b616e402a.JPG)
+
+
+## Deep learning odel
 Face detection has already been studied by many people.
 So I used dilib's human face detection model, which is widely used.
 As you can see from the figure below, memory only increases by about __7MB__ when declaring the model.
