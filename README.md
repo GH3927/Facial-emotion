@@ -1,6 +1,6 @@
 # Facial-emotion
 
-This project is performed with human face data provided by Nota(https://nota.ai/)
+This project was performed with human face data provided by Nota(https://nota.ai/)
 
 ## Model
 Face detection has already been studied by many people.
@@ -18,6 +18,11 @@ As you can see from the picture below, the memory of mobilenet-v2 is only __37MB
 
 
 ## Train dataset
-In order to input various train data, rotation is applied from -10 to 10 degrees,
+Because human face images are input to mobilenet-v2, the given train dataset cannot be used as it is.
+So, human face images were created using the boundingbox coordinates in the xml file and used as training data.
+![crop](https://user-images.githubusercontent.com/45653968/100176277-51e86180-2f13-11eb-9818-245807979ef7.JPG)
+
+
+In order to input various images in training, rotation is applied from -10 to 10 degrees,
 and images are resized to 280x280, and then randomly cropped to 256x256.
 ![train_data](https://user-images.githubusercontent.com/45653968/100174453-d1743180-2f0f-11eb-8971-c834d560df14.JPG)
