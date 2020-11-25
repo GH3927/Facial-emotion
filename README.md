@@ -60,4 +60,4 @@ But very occasionally, the face detector couldn't find the human face, or the em
 ![bad_results](https://user-images.githubusercontent.com/45653968/100180851-6f6df900-2f1c-11eb-94df-83c5b13cfe9e.JPG)
 
 
-The prediction results of the entire test dataset can be found in __facial_emotion/emotion.ipynb__
+The prediction results of the entire test dataset can be found in [__facial_emotion/emotion.ipynb__](https://github.com/GH3927/Facial-emotion/blob/main/facial_emotion/emotion.ipynb)
