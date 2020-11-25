@@ -12,7 +12,7 @@ As you can see from the figure below, memory only increases by about __7MB__ whe
 mobilenet-v2 was selected as a model for emotion classification.
 It is also a model with small memory and pretrained-weight learned with ImageNet in Pytorch is provided,
 so I thought it would be possible to satisfy both performance and memory.
-As you can see from the picture below, the memory of mobilenet-v2 is only __37MB__.
+As you can see from the figure below, the memory of mobilenet-v2 is only __37MB__.
 
 ![mobilenet_memory](https://user-images.githubusercontent.com/45653968/100175715-45173e00-2f12-11eb-9ffa-8c5e8533e267.JPG)
 
@@ -27,6 +27,8 @@ In order to input various images in training, rotation is applied from -10 to 10
 and images are resized to 280x280, and then randomly cropped to 256x256.
 ![train_data](https://user-images.githubusercontent.com/45653968/100174453-d1743180-2f0f-11eb-8971-c834d560df14.JPG)
 
+
+The table below shows the number of data by data set type.
 dataset |number
 ------|------
 train|1300
