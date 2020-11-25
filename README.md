@@ -9,7 +9,7 @@ Then, the found human face area is resized to the desired size and input to the 
 
 ## Deep learning model
 ### Dlib (Face detector)
-Face detection has already been studied by many people. So I used dlib(https://pypi.org/project/dlib/)'s human face detection model, which is widely used.  
+Face detection has already been studied by many people. So I used dlib(https://pypi.org/project/dlib/) human face detection model, which is widely used.  
 As you can see from the figure below, memory only increases by about __7MB__ when declaring the model.  
 ![dilib_memory](https://user-images.githubusercontent.com/45653968/100175735-4fd1d300-2f12-11eb-964b-6281a863f574.JPG)
 
