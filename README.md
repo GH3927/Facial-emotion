@@ -47,3 +47,16 @@ Epoch: 100
 learning rate: 0.00003  
 Overfitting begins at 4epoch. So, I used the weight of 4epoch.  
 <img src="https://user-images.githubusercontent.com/45653968/100180234-13ef3b80-2f1b-11eb-9cff-2610578bb298.png" width="60%" height="60%">
+
+
+## Test
+### Good results
+Most of the test images got good results.
+![good_results](https://user-images.githubusercontent.com/45653968/100180568-c45d3f80-2f1b-11eb-98f1-bed4cc16c597.JPG)
+
+### Bad results
+But very occasionally, the face detector couldn't find the human face, or the emotion classifier predicted emotion differently.  
+![bad_results](https://user-images.githubusercontent.com/45653968/100180851-6f6df900-2f1c-11eb-94df-83c5b13cfe9e.JPG)
+
+
+The prediction results of the entire test dataset can be found in emotion.ipynb.
