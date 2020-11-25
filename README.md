@@ -17,7 +17,7 @@ As you can see from the figure below, the memory of mobilenet-v2 is only __37MB_
 ![mobilenet_memory](https://user-images.githubusercontent.com/45653968/100175715-45173e00-2f12-11eb-9ffa-8c5e8533e267.JPG)
 
 
-## Train dataset
+## Dataset
 Because human face images are input to mobilenet-v2, the given train dataset cannot be used as it is.
 So, human face images were created using the boundingbox coordinates in the xml file and used as training data.
 ![crop](https://user-images.githubusercontent.com/45653968/100176277-51e86180-2f13-11eb-9818-245807979ef7.JPG)
