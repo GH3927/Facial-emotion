@@ -45,4 +45,5 @@ The output of the deep learning model was input to softmax, and cross entropy lo
 Batch size: 200  
 Epoch: 100  
 learning rate: 0.00003  
+Overfitting begins at 4epoch. So, I used the weight of 4epoch.  
 <img src="https://user-images.githubusercontent.com/45653968/100180234-13ef3b80-2f1b-11eb-9cff-2610578bb298.png" width="60%" height="60%">
