@@ -23,7 +23,7 @@ Mobilenet-v3 has a fully connected layer of 1000 at the end, but changed it to 5
 
 ## Dataset
 Because human face images are input to mobilenet-v2, the given train dataset cannot be used as it is.  
-So, human face images were created using the boundingbox coordinates in the xml file and used as training data.  
+So, human face images were created using the boundingbox coordinates in the xml file and used as train dataset.  
 <img src="https://user-images.githubusercontent.com/45653968/100176277-51e86180-2f13-11eb-9818-245807979ef7.JPG" width="80%" height="80%">
 
 In order to input various images in training, rotation is applied from -10 to 10 degrees, and images are resized to 280x280, and then randomly cropped to 256x256.  
