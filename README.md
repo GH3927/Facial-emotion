@@ -40,7 +40,6 @@ The output of the deep learning model was input to softmax, and cross entropy lo
 Batch size: 200  
 Epoch: 100  
 learning rate: 0.00003  
-The table below shows the number of data by data set type.  
 dataset |number
 ------|------
 train|1300
