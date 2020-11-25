@@ -14,7 +14,7 @@ As you can see from the figure below, memory only increases by about __7MB__ whe
 ![dilib_memory](https://user-images.githubusercontent.com/45653968/100175735-4fd1d300-2f12-11eb-964b-6281a863f574.JPG)
 
 
-mobilenet-v2 was selected as a model for emotion classification. It is also a model with small memory and pretrained-weight learned with ImageNet in Pytorch is provided,  
+mobilenet-v2 was selected as a model for emotion classification. It is also a model with small memory and pretrained-weight learned with ImageNet in Pytorch is provided,
 so I thought it would be possible to satisfy both performance and memory. As you can see from the figure below, the memory of mobilenet-v2 is only __37MB__.  
 Mobilenet-v3 has a fully connected layer of 1000 at the end, but changed it to 5. This is because there are five types of emotion: neutral, anger, surprise, smile, and sad.
 
