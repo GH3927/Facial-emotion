@@ -46,6 +46,7 @@ dataset |number
 train|1300
 validation|388
 test|184
+
 Overfitting begins at 4epoch. So, I used the weight of 4epoch.  
 <img src="https://user-images.githubusercontent.com/45653968/100180234-13ef3b80-2f1b-11eb-9cff-2610578bb298.png" width="60%" height="60%">
 
