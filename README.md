@@ -26,3 +26,9 @@ So, human face images were created using the boundingbox coordinates in the xml 
 In order to input various images in training, rotation is applied from -10 to 10 degrees,
 and images are resized to 280x280, and then randomly cropped to 256x256.
 ![train_data](https://user-images.githubusercontent.com/45653968/100174453-d1743180-2f0f-11eb-8971-c834d560df14.JPG)
+
+dataset |number
+------|------
+train|1300
+validation|388
+test|184
