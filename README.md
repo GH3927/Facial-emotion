@@ -9,6 +9,11 @@ As you can see from the figure below, memory only increases by about 37MB when d
 
 ![dilib_memory](https://user-images.githubusercontent.com/45653968/100174837-98888c80-2f10-11eb-9769-64b4f869fbe9.JPG)
 
+
+MobileNet-v2 was selected as a model for emotion classification.
+It is also a model with small memory and pretrained-weight learned with ImageNet in Pytorch is provided,
+so I thought it would be possible to satisfy both performance and memory.
+
 ## Train dataset
 In order to input various train data, rotation is applied from -10 to 10 degrees,
 and images is resized to 280x280, and then randomly cropped to 256x256.
