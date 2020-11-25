@@ -5,14 +5,14 @@ This project is performed with human face data provided by Nota(https://nota.ai/
 ## Model
 Face detection has already been studied by many people.
 So I used dilib's human face detection model, which is widely used.
-As you can see from the figure below, memory only increases by about _7MB_ when declaring the model.
+As you can see from the figure below, memory only increases by about __7MB__ when declaring the model.
 ![dilib_memory](https://user-images.githubusercontent.com/45653968/100175735-4fd1d300-2f12-11eb-964b-6281a863f574.JPG)
 
 
 mobilenet-v2 was selected as a model for emotion classification.
 It is also a model with small memory and pretrained-weight learned with ImageNet in Pytorch is provided,
 so I thought it would be possible to satisfy both performance and memory.
-As you can see from the picture below, the memory of mobilenet-v2 is only _37MB_.
+As you can see from the picture below, the memory of mobilenet-v2 is only __37MB__.
 
 ![mobilenet_memory](https://user-images.githubusercontent.com/45653968/100175715-45173e00-2f12-11eb-9ffa-8c5e8533e267.JPG)
 
