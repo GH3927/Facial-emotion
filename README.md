@@ -40,7 +40,7 @@ The output of the deep learning model was input to softmax, and cross entropy lo
 GPU: NVIDIA 2080 Ti 2ea  
 Batch size: 200  
 Epoch: 100  
-learning rate: 0.00003  
+learning rate: 3e-5
 dataset |number
 ------|------
 train|1300
