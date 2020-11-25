@@ -39,3 +39,10 @@ test|184
 The emotion string type value obtained from the .xml file was changed from 0 to 4 int type.
 The output of the deep learning model was input to softmax, and cross entropy loss is used as the loss function.  
 <img src="https://user-images.githubusercontent.com/45653968/100178746-eb197700-2f17-11eb-8c81-1ef983118f46.JPG" width="60%" height="60%">
+
+
+## Train
+Batch size: 200  
+Epoch: 100  
+learning rate: 0.00003  
+<img src="https://user-images.githubusercontent.com/45653968/100180234-13ef3b80-2f1b-11eb-9cff-2610578bb298.png" width="60%" height="60%">
