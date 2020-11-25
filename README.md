@@ -40,7 +40,7 @@ The output of the deep learning model was input to softmax, and cross entropy lo
 Model: Mobilenet-v2  
 GPU: NVIDIA 2080 Ti 2ea  
 Batch size: 200  
-Image size: 256x256  
+Input size: 256x256  
 Epoch: 100  
 Learning rate: 3e-5
 Dataset |Number
