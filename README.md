@@ -35,3 +35,10 @@ dataset |number
 train|1300
 validation|388
 test|184
+
+
+## Loss function
+The emotion string type value obtained from the .xml file was changed from 0 to 4 int type.
+The output of the deep learning model was input to softmax, and cross entropy loss is used as the loss function.
+![loss_function](https://user-images.githubusercontent.com/45653968/100178746-eb197700-2f17-11eb-8c81-1ef983118f46.JPG)
+
