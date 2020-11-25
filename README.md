@@ -5,7 +5,7 @@ This project was performed with human face data provided by Nota(https://nota.ai
 ## Architecture
 Facial emotion classification algorithm consists of 2 stages. First, when an image is input, the face detector finds the area of the human face.  
 Then, the found human face area is resized to the desired size and input to the emotion classifier. Finally, the emotion classifier predicts emotion.  
-![architecture](https://user-images.githubusercontent.com/45653968/100177618-c2907d80-2f15-11eb-8bf6-3b5b616e402a.JPG){: width="600" height="400"}
+![architecture](https://user-images.githubusercontent.com/45653968/100177618-c2907d80-2f15-11eb-8bf6-3b5b616e402a.JPG){: width="50%" height="50%"}
 
 
 ## Deep learning odel
