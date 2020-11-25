@@ -1,6 +1,6 @@
 # Facial-emotion
 
-This project was performed with human face data provided by Nota(https://nota.ai/)
+This project was performed with facial emotion dataset provided by Nota(https://nota.ai/)
 
 ## Architecture
 Facial emotion classification algorithm consists of 2 stages. First, when an image is input, the face detector finds the area of the human face.  
