@@ -26,7 +26,8 @@ Because human face images are input to mobilenet-v2, the given train dataset can
 So, human face images were created using the boundingbox coordinates in the xml file and used as train dataset.  
 <img src="https://user-images.githubusercontent.com/45653968/100176277-51e86180-2f13-11eb-9818-245807979ef7.JPG" width="80%" height="80%">
 
-In order to input various images in training, rotation is applied from -10 to 10 degrees, and images are resized to 280x280, and then randomly cropped to 256x256.  
+In order to input various images in training, rotation was applied from -10 to 10 degrees, flip was applied to randomly 50% probability  
+Lastly images are resized to 280x280, and then randomly cropped to 256x256.  
 ![train_data](https://user-images.githubusercontent.com/45653968/100174453-d1743180-2f0f-11eb-8971-c834d560df14.JPG)  
 
 
